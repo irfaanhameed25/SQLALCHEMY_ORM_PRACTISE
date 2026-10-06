@@ -1,0 +1,12 @@
+class Student:
+      def __init__(self, name):
+          self.name = name
+
+      def print_name(self):
+         return self.name
+
+
+
+s1 = Student("abi")
+s1.print_name() # output -> "abi"
+
